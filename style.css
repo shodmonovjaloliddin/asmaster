@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+  background: rgb(43, 43, 43);
+}
+
+.wallet {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wallet a {
+  color: white;
+  font-size: 16px;
+}
+
+.wallet button {
+  width: 152px;
+  height: 60px;
+  padding: 0px 30px 0px 30px;
+  gap: 12px;
+  border-radius: 20px;
+  background: rgb(162, 89, 255);
+  color: white;
+  border: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-section {
+  display: flex;
+  background: rgb(43, 43, 43);
+}
+
+.discover h1 {
+  font-size: 67px;
+  max-width: 430px;
+  color: rgb(255, 255, 255);
+}
+
+.discover p {
+  max-width: 330px;
+  color: rgb(255, 255, 255);
+  opacity: 60%;
+}
+
+.discover button {
+  width: Hug 224px px;
+  height: Fixed 60px px;
+  padding: 0px 50px 0px 50px;
+  gap: 12px;
+  border-radius: 20px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
