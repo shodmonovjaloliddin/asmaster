@@ -23,7 +23,7 @@ a{
     color: white;
     font-size: 16px;
 }
-.wallet button{
+.termo{
     width: 152px;
     height: 60px;
     padding: 0px 30px 0px 30px;
@@ -36,6 +36,14 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.termo[type="submit"]:hover{
+    background-color: orangered;
+}
+.termo[type="submit"]:active{
+    transform: scale(0.95);
 }
 .top-section{
     display: flex;
@@ -59,7 +67,7 @@ a{
     margin-top: 20px;
     font-size: 22px;
 }
-.discover button{
+.btn[type="submit"]{
     width:224px;
     height: 60px;
     padding: 0px 50px 0px 50px;
@@ -72,6 +80,14 @@ a{
     align-items: center;
     margin-top: 30px;
     background: rgba(162, 89, 255, 1);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.btn[type="submit"]:hover{
+    background-color: orangered;
+}
+.btn[type="submit"]:active{
+    transform: scale(0.95);
 }
 .animakid{
     display: flex;
@@ -165,7 +181,7 @@ a{
 .whale p{
     font-size: 16px;
 }
-.rated button{
+.rang[type="submit"]{
     width: 247px;
     height: 60px;
     padding: 0px 50px 0px 50px;
@@ -178,6 +194,16 @@ a{
     font-size: 16px;
     align-items: center;
     display: flex;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.rang[type="submit"]:hover{
+    background-color: yellow;
+    color: whitesmoke;
+    border: none;
+}
+.rang[type="submit"]:active{
+    transform: scale(0.95);
 }
 span{
     display: none;
@@ -353,7 +379,7 @@ span{
     gap: 600px;
     margin-bottom: 50px;
 }
-.nft button{
+.eyes[type="submit"]{
     width: 187px;
     height: 60px;
     padding: 0px 50px 0px 50px;
@@ -364,6 +390,16 @@ span{
     font-size: 16px;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    transition: background-color 0.6s, transform 0.4s;
+}
+.eyes[type="submit"]:hover{
+    background-color: yellow;
+    color: whitesmoke;
+    border: none;
+}
+.eyes[type="submit"]:active{
+    transform: scale(0.95);
 }
 .nft button img{
     width: 20px;
@@ -424,6 +460,7 @@ span{
     background-color: white;
     border-radius: 20px;
     margin-top: 40px;
+    display: flex;
 }
 .emails input{
     max-width: 300px;
@@ -434,7 +471,7 @@ span{
     text-align: center;
     border-radius: 10px;
 }
-.emails button{
+.like[type="submit"]{
     width: 211px;
     height: 60px;
     padding: 0px 50px 0px 50px;
@@ -446,8 +483,16 @@ span{
     font-size: 16px;
     text-align: center;
     align-items: center;  
+    display: flex;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
 }
-
+.like[type="submit"]:hover{
+    background-color: orangered;
+}
+.like[type="submit"]:active{
+    transform: scale(0.95);
+}
 
 .footer-section{
     margin-top: 100px;
